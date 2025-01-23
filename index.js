@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}))
 
 
 app.get("/",(req,res)=>{
-    res.send('hello world')
+    res.render('home')
 });
 
 
